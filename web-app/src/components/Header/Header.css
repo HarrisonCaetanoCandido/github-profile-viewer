@@ -1,0 +1,83 @@
+h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+}
+
+.github {
+    width: 50px;;
+    height: 50px;
+}
+
+.header-buttons {
+    width: 200px;
+    max-width: 300px;
+}
+
+nav {
+    padding: 30px;
+    border-bottom: 1px solid #b4aeae41;
+}
+
+@media(max-width: 420px)
+{
+    h1 {
+        text-align: center;
+        font-size: 24px !important;
+    }
+
+    .linkedin {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .github {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media(max-width:500px)
+{
+    .linkedin {
+        width: 33px;
+        height: 33px;
+    }
+
+    .github {
+        width: 33px;
+        height: 33px;
+    }
+    
+    .header-intern-elements {
+        /*!important sobrepoe as regras de container-md*/
+        justify-content:center !important;
+    }
+}
+
+@media(min-width:500px) and (max-width:650px)
+{
+    h1 {
+        font-size: 28px;
+    }
+
+    .linkedin {
+        width: 35px;
+        height: 35px;
+    }
+
+    .github {
+        width: 35px;
+        height: 35px;
+    }
+
+    .header-buttons {
+        width: 100px;
+        max-width: 200px;
+    }
+}

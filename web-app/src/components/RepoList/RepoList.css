@@ -1,0 +1,36 @@
+.repo-list-extern-container-mod {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repo-section-internal-container {
+    width: 90vw;
+    max-width: 1200px;
+    border-radius: 10px;
+    border: 1px solid #b4aeae41;
+    margin-top: 15px;
+    margin-bottom:20px;
+}
+
+.repositories-attributes {
+    padding-top:28px;
+    padding-left:28px;
+}
+
+.repo-section-name {
+    color: #454545;
+    font-size: 14px;
+}
+
+.ul-repo-list {
+    width: 100%;
+    max-height: 200px;
+    overflow-y:auto;
+}
+
+.repo-card-list {
+    list-style-type: none;
+    padding-left: 18px;
+}

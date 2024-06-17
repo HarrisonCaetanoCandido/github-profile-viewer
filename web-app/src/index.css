@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  /*As duas fontes abaixo são usadas para controlar a renderização e 
+  suavização das fontes em navegadores baseados em WebKit 
+  (como Chrome e Safari) e Firefox no macOS, respectivamente*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
