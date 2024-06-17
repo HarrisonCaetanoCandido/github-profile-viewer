@@ -37,3 +37,5 @@ Para manter uma boa organização na pasta src, cada componente deve possuir al�
 
 ## assets
 Pode ser utilizada para guardar imagens para cada componente ao utilizar a importação.
+
+## react route dom
