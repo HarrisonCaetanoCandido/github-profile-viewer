@@ -52,7 +52,7 @@ function AboutTheProject() {
                 <div className='project-info'>
                     <div className='project-details-section'>
                         <div className='home-link'><Link to="/">Go Back to Home</Link></div>
-                        <p className='project-name'>About The Project</p>
+                        <h1 className='project-name'>About The Project</h1>
                         <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm]} />
                     </div>
                 </div>

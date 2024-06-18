@@ -16,6 +16,11 @@
 
 .card-list {
     border: 0px !important;
+    border-radius: 15px;
+}
+
+.card-list:hover {
+    background-color: #cfcfcfda;
 }
 
 .user-img {
@@ -30,7 +35,7 @@
     margin-bottom: 0px;
 }
 
-.id {
+.login {
     color: #454545;
     font-size: 12px;
     margin-bottom: 0px;

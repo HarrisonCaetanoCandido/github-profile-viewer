@@ -33,4 +33,10 @@
 .repo-card-list {
     list-style-type: none;
     padding-left: 18px;
+    border-radius: 8px;
+}
+
+.repo-card-list p {
+    margin-top:15px;
+    margin-bottom: 15px;
 }

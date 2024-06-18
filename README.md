@@ -22,7 +22,7 @@ O projeto é composto por duas camadas: frontend e backend, este que inclui uma 
 - **Performance:** Reduzo a latência, pois a comunicação com a API é direta no frontend
 
 ## Desvantagens de não conter um componente backend para consumo da API:
-- **Segurança:** Como é observável, a chave de API do GitHub fica exposta no frontend, o que leva a vulnerabilidades da conta do github do desenvolvedor, portanto, é necessário que, ao dar fork no projeto, o cliente gere sua própria chave de API que pode ser obtida da seguinte forma:
+- **Segurança:** Como é observável, a chave de API do GitHub fica exposta no frontend, o que leva a vulnerabilidades da conta do github do desenvolvedor, portanto, é necessário que, ao dar fork no projeto, o cliente gere sua própria chave de API que pode ser obtida da seguinte forma: https://docs.github.com/pt/apps/creating-github-apps/authenticating-with-a-github-app/managing-private-keys-for-github-apps
 
 # 3.1. Frontend
 ## UX & UI Design
